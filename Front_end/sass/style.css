@@ -1,0 +1,81 @@
+* body {
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+h1{
+  text-align: center;
+}
+
+
+.image1 img {
+  width: 800 px;
+  height: 650px;
+}
+
+.image1 {
+  float: left;
+  width: 60%;
+}
+
+.user_passw input {
+  display: block;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  width: 80%;
+}
+
+.user_passw button {
+  width: 50%;
+  padding: 15px;
+}
+
+.user_passw {
+  float: right;
+  width: 30%;
+  padding-top: 250px;
+}
+
+/*nueva nav bar*/
+nav {
+  margin: 0%;
+  width: 100%;
+  background-color: #66BB6A;
+  font-size: 15px;
+  font-weight: bolder;
+  font-family: 'Poppins', sans-serif;
+}
+
+ul.b {
+  list-style-type: square;
+}
+
+.menu-horizontal {
+  list-style-type: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.menu-horizontal > li > a {
+  display: block;
+  padding: 15px 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.menu-horizontal > li:hover {
+  background-color: #FB8C00;
+}
+
+.menu-horizontal li:hover .menu-vertical {
+  display: block;
+}
+/*# sourceMappingURL=style.css.map */
